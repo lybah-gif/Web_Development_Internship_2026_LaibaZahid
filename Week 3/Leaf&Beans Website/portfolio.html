@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Leaf &amp; Beans Books &amp; Coffee</title>
+<meta name="description" content="A look inside Leaf &amp; Beans — our spaces, our monthly events, and the community around the shop.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito:wght@400;600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="index.html" class="logo" aria-label="Leaf &amp; Beans — home">
+      <svg width="34" height="34" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M4 8c6-3 10-3 14 0v20c-4-3-8-3-14 0V8z" fill="#D98B93"/>
+        <path d="M32 8c-6-3-10-3-14 0v20c4-3 8-3 14 0V8z" fill="#8FA68E"/>
+        <path d="M18 8v20" stroke="#3A2A1E" stroke-width="1.2"/>
+      </svg>
+      Leaf &amp; Beans
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="btn btn-primary">Reserve a table</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="status-tag" style="margin-bottom:16px;">Spaces &amp; monthly events</span>
+      <h1>A peek inside</h1>
+      <p>Filter between the spaces you can sit in and the events we run most months.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="filter-bar" role="group" aria-label="Filter gallery by category">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-btn" data-filter="space" aria-pressed="false">Spaces</button>
+        <button class="filter-btn" data-filter="event" aria-pressed="false">Events</button>
+      </div>
+
+      <div class="grid grid-3" id="gallery-grid">
+
+        <div class="gallery-item" data-category="space">
+          <div class="gallery-thumb">
+            <img class="lazy-img" width="500" height="375" alt="Reading nook with a worn armchair beside tall bookshelves" data-src="images/nook-1.svg">
+          </div>
+          <div class="gallery-body"><span class="tag">the reading nook</span><h3 style="font-size:1.05rem">Back Corner Armchairs</h3></div>
+        </div>
+
+        <div class="gallery-item" data-category="space">
+          <div class="gallery-thumb">
+            <img class="lazy-img" width="500" height="375" alt="Espresso bar counter with hanging pendant lights" data-src="images/nook-2.svg">
+          </div>
+          <div class="gallery-body"><span class="tag">the counter</span><h3 style="font-size:1.05rem">Espresso Bar</h3></div>
+        </div>
+
+        <div class="gallery-item" data-category="space">
+          <div class="gallery-thumb">
+            <img class="lazy-img" width="500" height="375" alt="Window seat with cushions overlooking the street" data-src="images/nook-3.svg">
+          </div>
+          <div class="gallery-body"><span class="tag">the window seat</span><h3 style="font-size:1.05rem">Street-Facing Seating</h3></div>
+        </div>
+
+        <div class="gallery-item" data-category="space">
+          <div class="gallery-thumb">
+            <img class="lazy-img" width="500" height="375" alt="Shelf of secondhand paperbacks organised by colour" data-src="images/nook-4.svg">
+          </div>
+          <div class="gallery-body"><span class="tag">the shelves</span><h3 style="font-size:1.05rem">Colour-Sorted Fiction</h3></div>
+        </div>
+
+        <div class="gallery-item" data-category="event">
+          <div class="gallery-thumb">
+            <img class="lazy-img" width="500" height="375" alt="Illustration representing the monthly book club gathering" data-src="images/event-bookclub.svg">
+          </div>
+          <div class="gallery-body"><span class="tag">first Thursday, monthly</span><h3 style="font-size:1.05rem">Book Club</h3></div>
+        </div>
+
+        <div class="gallery-item" data-category="event">
+          <div class="gallery-thumb">
+            <img class="lazy-img" width="500" height="375" alt="Illustration representing a poetry night event" data-src="images/event-poetry.svg">
+          </div>
+          <div class="gallery-body"><span class="tag">last Friday, monthly</span><h3 style="font-size:1.05rem">Poetry Night</h3></div>
+        </div>
+
+        <div class="gallery-item" data-category="event">
+          <div class="gallery-thumb">
+            <img class="lazy-img" width="500" height="375" alt="Illustration representing Book Swap Sunday" data-src="images/event-swap.svg">
+          </div>
+          <div class="gallery-body"><span class="tag">first Sunday, monthly</span><h3 style="font-size:1.05rem">Book Swap Sunday</h3></div>
+        </div>
+
+        <div class="gallery-item" data-category="event">
+          <div class="gallery-thumb">
+            <img class="lazy-img" width="500" height="375" alt="Illustration representing a local author signing event" data-src="images/event-signing.svg">
+          </div>
+          <div class="gallery-body"><span class="tag">occasional</span><h3 style="font-size:1.05rem">Author Signings</h3></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt text-center">
+    <div class="container">
+      <h2>Want to host something here?</h2>
+      <p style="max-width:50ch;margin:0 auto 24px">We open the back room for private book clubs, small workshops, and quiet gatherings.</p>
+      <a href="contact.html" class="btn btn-primary">Ask about hosting</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Leaf &amp; Beans</h4>
+        <p style="color:#c8b9a4;max-width:32ch">A secondhand bookstore with a café in the back corner. Books to keep, coffee to stay for.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>hello@leafbeans.example</li>
+          <li>+92 300 1234567</li>
+          <li>Peshawar, Pakistan</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year">2026</span> Leaf &amp; Beans Books &amp; Coffee.</span>
+      <span class="status-tag">Open now · closes 9:00 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

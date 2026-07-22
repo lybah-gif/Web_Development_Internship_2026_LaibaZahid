@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="400" fill="#f2e6d3"/>
+<circle cx="200" cy="170" r="72" fill="#D98B93"/>
+<path d="M70 400 Q200 270 330 400 Z" fill="#D98B93"/>
+<path d="M140 130 Q200 90 260 130 Q260 100 200 95 Q140 100 140 130 Z" fill="#3A2A1E"/>
+<text x="200" y="185" font-family="Georgia, serif" font-size="40" fill="#3A2A1E" text-anchor="middle" font-weight="700">AM</text>
+</svg>
